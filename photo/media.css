@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+header, footer, nav,main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: orange;
+}
+
+header{
+    top: 0;
+}
+
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+
+nav a, nav a:visited{
+    color: black;
+}
+
+nav a:hover, nav a:focus{
+    color: hsla(0,0%, 20%, 0.6);
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50rem;
+    padding: 1rem;
+    
+}
+
+footer{
+    bottom: 0;
+}
+
+/*  profile card*/
+
+.card{
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    background-color: #cbd5e1;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card figure{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card img{
+    border: 5px double #333;
+    border-radius: 50%;
+}
+
+.card figcaption{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/*small*/
+/* @media screen and (min-width: 576px) {
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+    }
+    nav{
+        display: none;
+    }
+} */
+
+/*Medium*/
+/* @media screen and (min-width: 768px) {
+    body{
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke, gold);
+    }
+} */
+
+    /*large*/
+/* @media screen and (min-width: 992px) {
+    body{
+        background-color: firebrick;
+        background-image: radial-gradient(whitesmoke, firebrick);
+    }
+} */
+
+    /*XL*/
+/* @media screen and (min-width: 1000px) {
+    body{
+        background-color: rebeccapurple;
+        background-image: radial-gradient(whitesmoke, rebeccapurple);
+    }
+} */
+
+    /*Mobile Device Landscape*/
+/* @media screen and (max-height: 425px) and (min-aspect-ratio:7/4) {
+    body{
+        background-color: dodgerblue;
+        background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+}
+
+h1, h2{
+    font-size: 1.5rem;
+}
+
+nav{
+    display: none;
+} */

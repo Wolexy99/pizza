@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Forms</title>
+    <link rel="stylesheet" href="input.css">
+  </head>
+  <body>
+    <div class="column">
+      <div class="col-1">
+        <label for="firstname">First Name</label>
+      </div>
+      <div class="col-2">
+        <input type="text" name="firstname" id="firstname" placeholder="Your name..">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="col-1">
+        <label for="lastname">Last Name</label>
+      </div>
+      <div class="col-2">
+        <input type="text" name="lastname" id="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="col-1">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-2">
+        <select class="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="france">France</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="col-1">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-2">
+      <textarea name="name" rows="8" cols="80">write something..</textarea>
+      </div>
+    </div>
+
+    <div class="column">
+      <input type="submit" name="submit" value="Submit">
+    </div>
+  </body>
+</html>

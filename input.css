@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+.column{
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  border-radius: 4px;
+}
+
+label{
+  display: inline-block;
+  padding: 12px 16px;
+}
+
+input[type=submit]{
+  padding: 12px;
+  margin-top: 12px;
+  color: white;
+  background: green;
+  border: none;
+  float: right;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.col-1{
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+}
+
+.col-2{
+  width: 75%;
+  float: left;
+  margin-top: 10px;
+}
+
+.column::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-1, .col-2, input[type=submit]{
+    width: 100%;
+    margin-top: 0;
+  }
+}

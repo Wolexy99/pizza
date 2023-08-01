@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  min-width: 90vw;
+  min-height: 90vh;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  background: purple;
+  background-image: radial-gradient(white, purple);
+}
+h1{
+  color: orange;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.main{
+  border: 2px solid white;
+  top: 5px;
+  min-height: 70vh;
+  max-width: 30vw;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  background: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.in{
+  margin-top: 10px;
+  margin-right: 210px;
+}
+
+.name{
+  margin-right: 110px;
+  padding: 7px;
+}
+.mail{
+  margin-right: 110px;
+  padding: 7px;
+}
+
+.pass{
+  margin-right: 110px;
+  padding: 7px;
+}
+
+.btn{
+  margin-right: 240px;
+  padding: 3px;
+}
+
+.for{
+  text-align: start;
+  color: blue;
+  padding-top: 10px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.sign{
+  border-radius: 100px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  top: 5rem;
+}
+
+.fill{
+  margin: auto;
+  padding-top: 5px;
+}
+
+.apple{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 100px
+}
+
+.new{
+  color: blue;
+  text-align: center;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+.copy{
+  font-size: 1.5em;
+  padding-top: 20px;
+  text-align: center;
+}

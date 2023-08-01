@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Responsive Table</title>
+  </head>
+  <body>
+    <table>
+      <caption>People in church</caption>
+      <tr>
+        <th>Adult</th>
+        <th>Teenagers</th>
+        <th>Children</th>
+      </tr>
+
+      <tr>
+        <td>Mr Francis</td>
+        <td>Ogunmepon</td>
+        <td>Saro</td>
+      </tr>
+
+      <tr>
+        <td>Mrs Adenuga</td>
+        <td>Jubril</td>
+        <td>Samuel</td>
+      </tr>
+
+      <tr>
+        <td>Mr Adams</td>
+        <td>Spencer</td>
+        <td>James</td>
+      </tr>
+
+      <tr>
+        <td>Mrs Grace</td>
+        <td>Phillip</td>
+        <td>Nneoma</td>
+      </tr>
+
+      <tr>
+        <td>Mr John</td>
+        <td>Peter</td>
+        <td>Magret</td>
+      </tr>
+    </table>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Home" target="_blank">Home</li>
+          <li><a href="Contact" target="_blank">Contact</li>
+          <li><a href="About" target="_blank">About</li>
+          <li><a href="Help" target="_blank">Help</li>
+        </ul>
+      </nav>
+    </header>
+
+    <p class="flip" onclick="myFunction()">Click to show panel</p>
+
+    <div id="panel">
+      <p>This panel contains a div element, which is hidden by default (display: none).</p>
+      <p>It is styled with CSS and we use JavaScript to show it (display: block).</p>
+      <p>How it works: Notice that the p element with class="flip" has an onclick attribute attached to it. When the user clicks on the p element, a function called myFunction() is executed, which changes the style of the div with id="panel" from display:none (hidden) to display:block (visible).</p>
+      <p>You will learn more about JavaScript in our JavaScript Tutorial.</p>
+    </div>
+
+    <div class="fixed">
+      This div element has position: fixed;
+    </div>
+
+
+    <script>
+      function myFunction(){
+        document.getElementById("panel").style.display = "block";
+      }
+    </script>
+
+
+          <div class="container">
+            <div class="black-box">
+              black box
+            </div>
+
+            <div class="green-box">
+              green box
+            </div>
+
+            <div class="gray-box">
+              gray box
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="box1">
+              Some text inside a box
+            </div>
+
+            <div class="box2">
+              some text inside a box
+            </div>
+
+            <div class="box3">
+              some text inside a box
+            </div>
+          </div>
+</html>

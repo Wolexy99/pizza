@@ -1,0 +1,74 @@
+/* Begin Reset*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+} 
+/*End Reset*/
+
+/* Utility Classes*/
+
+ .nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+} */
+
+/*End Utility Classes*/
+
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, blue, white);
+}
+
+.hero{
+    border-bottom:  2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+/*     background-color: gold;
+    background-image: url('dog.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+h1{
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;                                                                                                                       
+} 
+
+.clip{
+font-weight: 800;
+font-size: 300px;
+text-align: center;
+text-transform: uppercase;
+background-image: url("bicycle.jpg.jpg");
+-webkit-background-clip: text;
+color: hsla(0, 0%, 0%, 0.014);
+background-clip: text;
+}
+

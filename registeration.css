@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 100vw;
+}
+header{
+  background-color: lightgoldenrodyellow;
+  height: 300px;
+}
+
+.enable{
+  font-size: 20px;
+}
+
+.example{
+  font-size: 20px;
+}
+
+.fixed{
+  float: left;
+  padding: 15px;
+}
+
+.fix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.sky{
+  font-size: 60px;
+  color:black;
+}
+
+.fix{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.Software{
+  text-align: center;
+}
+
+.soft{
+  margin-top: 20px;
+  color: purple;
+  font-size: 40px;
+}
+
+.ware{
+  margin-top: 10px;
+  color: gray;
+}
+
+span{
+  color: black;
+}
+
+.bwave{
+  color: gray;
+  margin-top: 30px;
+}
+
+.suggest{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.we{
+  color: gray;
+}
+
+.content{
+  float: left;
+  padding: 5px;
+}
+
+.media::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+.media{
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 15px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+
+.contain{
+  float: left;
+  padding: 5px;
+}
+
+.app::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+.app{
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 15px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+
+.contained{
+  float: left;
+  padding: 5px;
+}
+
+.email::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+.email{
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 15px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+  border-radius: 10px;
+  font-size: 20px;
+}

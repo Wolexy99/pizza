@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    min-height: 100vh;
+}
+
+.header{
+  position: relative;
+  width: 370px;
+  height: 450px;
+  background: #1c1c1c;
+  border-radius: 50px 5px;
+  overflow: hidden;
+}
+
+.sign{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.user{
+  color: lightgreen;
+  margin-left: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type=text]{
+  background-color: #1c1c1c;
+  border: none;
+  border-bottom: 1px solid green;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 30px;
+}
+
+.pass{
+  color: lightgreen;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type=password]{
+  background-color: #1c1c1c;
+  border: none;
+  border-bottom: 1px solid green;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 30px;
+}
+
+.sub{
+  text-align: center;
+}
+
+input[type=submit]{
+  padding: 10px 80px;
+  border-radius: 90px;
+  border: none;
+  font-size: 20px;
+  background: #45f3ff;
+  cursor: pointer;
+  margin: 30px;
+  font-weight: bold;
+}
+
+input[type=submit]:hover{
+  color: white;
+  background-color: green;
+}
+
+.enter{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.enter a{
+  text-decoration: none;
+  color: #45f3ff;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.enter a:first-child{
+  color: black;
+  font-size: 25px;
+}
+
+.enter a:first-child:hover{
+  color: white;
+}
+.enter a:last-child:hover{
+  color: purple;
+}

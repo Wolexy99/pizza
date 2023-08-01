@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.horizontal{
+  list-style-type: none;
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.horizontal li{
+  display: inline-block;
+  padding: 16px 18px;
+}
+
+.horizontal li a{
+  text-decoration: none;
+  color: black;
+}
+
+.horizontal li a.active{
+  background-color: green;
+  color: white;
+  padding: 16px 18px;
+}
+
+.horizontal li a:hover{
+  background-color: orange;
+}
+
+
+.vertical {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.vertical li a{
+  display: block;
+  color: purple;
+  text-decoration: none;
+  padding: 16px 18px;
+}
+
+.vertical li a:hover{
+  background-color: gray;
+  color: red;
+}
+
+.vertical li a.active{
+  background-color: brown;
+  color: white;
+}
